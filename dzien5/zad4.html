@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            height: 50px;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 10px 0;
+        }
+        .banner{
+            word-wrap: break-word;
+        }
+        .funkcje{
+            display: flex;
+            flex-wrap: wrap;
+            gap:10px;
+            width:auto;
+            justify-content: space-between;
+        }
+        .function{
+            width: 40%;
+            border: 1px solid lightgray;
+            padding: 0 10px;
+        }
+        .function2{
+            width: 100%;
+            padding: 0 10px;
+            border: 1px solid lightgray;
+        }
+        .info{
+            border: 1px solid lightgray;
+            padding: 5px;
+        }
+        p.if{
+            margin:0px;
+            padding:0px;
+        }
+        h3.if{
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer{
+            height: 50px;
+            background-color: lightgray;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>Strona główna</p>
+        <p>O nas</p>
+        <p>Kontakt</p>
+    </div>
+    <div class="main">
+        <div class="banner">
+            <h2>Witaj na naszej<br> skomplikowanej<br> stronie!</h2>
+        </div>
+        <div class="funkcje">
+            <div class="function">
+                <h2>Funkcja 1</h2>
+                <p>Opis funkcji 1...</p>
+            </div>
+            <div class="function">
+                <h2>Funkcja 2</h2>
+                <p>Opis funkcji 2...</p>
+            </div>
+            <div class="function2">
+                <h2>Funkcja 3</h2>
+                <p>Opis funkcji 3...</p>
+            </div>
+        </div>
+        <div class="info">
+            <h3 class="if">Dodatkowe informacje</h3>
+            <p class="if">...</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2023 Skomplikowana strona z flexboxem.
+             Wszelkie prawa zastrzeżone.</p>
+    </div>
+</body>
+</html>
